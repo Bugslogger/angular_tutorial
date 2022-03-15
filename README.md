@@ -51,3 +51,30 @@ let's do it.
  in next video will see how to import compenent.
  thanks for watching. 
  like share and subscribe.
+
+# importing component
+
+in last video we saw creating commponent and angular app.
+
+in this video we will saw how to import component.
+
+we will create  one more component and then import it to display on browser.
+
+to create component run command
+
+ng g c (component name)
+
+Warning: while create component there should be no space in name of component.
+
+let check our browser first.
+now here we are going to import out component in app.component.html
+
+#how to import component
+
+<app-[componentname]></app-[componentname]>
+
+this is how we can import component in angular 
+if you have any query ping in on discord.
+code available on github.
+
+Thanks For watching.
