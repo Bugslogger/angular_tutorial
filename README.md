@@ -78,3 +78,28 @@ if you have any query ping in on discord.
 code available on github.
 
 Thanks For watching.
+
+# Icons in Angular
+
+In last video we saw how to use component.
+in this video we will see how to use fontawesome icons in angular.
+
+let's open fontawesome on browser.
+
+to use fontawesome in angular we have to install
+NPM package of fontawesome icons
+
+1. npm i @fortawesome/angular-fontawesome
+2. npm i @fortawesome/fontawesome-svg-core
+3. npm i @fortawesome/free-solid-svg-icons
+
+you can use yarn too, depends on  you what use want to use.
+now let's install it via terminal.  
+
+Now after installation 
+we have to  import fontawesome in app.module.ts
+
+as you can see we can now see the coffecup icon on browser :)
+
+thanks for watching subscribe to channel and share
+for any query ping me on discord

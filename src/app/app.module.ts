@@ -6,17 +6,22 @@ import { AppComponent } from './app.component';
 import { FirstcomponentComponent } from './firstcomponent/firstcomponent.component';
 import { SecondcomponentComponent } from './secondcomponent/secondcomponent.component';
 
+// import fontawesome icons here
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+
+/**
+ * now import it in NgModule in imports: []
+ * now we can use it in any component
+ */
 @NgModule({
   declarations: [
     AppComponent,
     FirstcomponentComponent,
-    SecondcomponentComponent
+    SecondcomponentComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
