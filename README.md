@@ -1,27 +1,53 @@
-# FirstApp
+# Angular Tutorial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+In this video we are gonig to see 
+how to create angular app and  it's component.
+firstly you need to install Angular cli on your system.
 
-## Development server
+let's install it.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# npm install -g @angular/cli
+this will install angular cli globally on your system.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+now next step.
+create angular app and name it FirstApp.
 
-## Build
+to create angular app run command
+ng new (app name)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+it will create angular app.
+as you can see on left side a folder with name FirstApp has been created.
 
-## Running unit tests
+# now run aour angular app
+ you can use both ng serve or npm start to run angular app on local host.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+oops! i forget we have to run npm start in same directory where the all angular files are.
+here which is in FirstApp.
 
-## Running end-to-end tests
+[Port 4200 is already in use.] as it says already running on port 4200.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+here on 4200 port my anothere angular app is running but on your device it will open localhost on port 4200 bt default
 
-## Further help
+as you can see we have created our first angular app. 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Create component
+now let's create component and name it fistcomponent.
+
+to create component run command
+ng g c (component name)
+
+here:
+g - is for generate.
+c - is for component.
+
+you new component will be create in src folder.
+
+let's do it.
+
+ as you can see on left side a new folder it create with name firstcomponent.
+ and others files like html, css, .ts will will created automatically.
+
+ in next video will see how to import compenent.
+ thanks for watching. 
+ like share and subscribe.
