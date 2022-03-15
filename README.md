@@ -98,7 +98,7 @@ now let's install it via terminal.
 
 Now after installation 
 we have to  import fontawesome in app.module.ts
-
+[check video on youtube for understanding]
 as you can see we can now see the coffecup icon on browser :)
 
 thanks for watching subscribe to channel and share
