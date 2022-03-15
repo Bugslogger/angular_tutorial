@@ -19,7 +19,7 @@ ng new (app name)
 it will create angular app.
 as you can see on left side a folder with name FirstApp has been created.
 
-# now run aour angular app
+# now run our angular app
  you can use both ng serve or npm start to run angular app on local host.
 
 oops! i forget we have to run npm start in same directory where the all angular files are.
